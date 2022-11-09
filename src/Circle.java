@@ -10,7 +10,10 @@ public class Circle extends Shape2D{
 
     @Override
     double getArea(){
-        return Math.PI * Math.pow(circleDiameter/2, 2);
+
+        double radius = circleDiameter/2;
+
+        return Math.PI * Math.pow(radius, 2);
     }
 
 }
